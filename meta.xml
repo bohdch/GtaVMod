@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<meta>
+    <info name="GtaVMod" type ="gamemode" description="GtaVMod" />
+    <script src="bin/Debug/netcoreapp3.1/GtaVMod.dll" />
+</meta>
