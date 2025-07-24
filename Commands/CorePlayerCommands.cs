@@ -23,14 +23,5 @@ namespace GtaVMod.Commands
                 p.SendChatMessage($"~b~Teleported to ~w~({x}, {y}, {z})");
             });
         }
-
-        [Command("quit", "/quit")]
-        public void Quit(Player player)
-        {
-            CommandProxy.ExecuteIfLoggedIn(player, p =>
-            {
-                p.Kick("~r~You have voluntarily disconnected from the server.");
-            });
-        }
     }
 }
