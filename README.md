@@ -3,6 +3,7 @@
 This is a custom GTA V mod running on RageMP with a .NET server-side
 
 ## DEMO
+[Watch demo video](https://drive.google.com/file/d/1rsxviiKoGkcczQ5DCTz-rblEWMcciZSv/view?usp=drive_link)
 
 ## Features
 ### Authentication
