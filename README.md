@@ -22,9 +22,6 @@ This is a custom GTA V mod running on RageMP with a .NET server-side
 - `/tp [x] [y] [z]`  
   Teleport to specified coordinates.
 
-- `/quit`  
-  Disconnect from the server
-
 ### Economy System
 
 - `/money`  
