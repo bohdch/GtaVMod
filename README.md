@@ -56,8 +56,7 @@ This is a custom GTA V mod running on RageMP with a .NET server-side
 <img width="1142" height="273" alt="image" src="https://github.com/user-attachments/assets/6930095e-c4c4-4093-91f3-ad0d9e382119" />
 
 6. Open `dotnet/resources` folder (if you can't find this folder, just create it)
-7. Create a new folder, called `GtaVMod` there
-8. Clone the repo to this folder
-9. Build the project to obtain DLL.
-10. Start `service-files/ragemp-server.exe`
-11. Finally, connect to the 127.0.0.1:22005 via RAGE MP
+7. Clone the repo to this folder
+8. Build the project to obtain DLL.
+9. Start `service-files/ragemp-server.exe`
+10. Finally, connect to the 127.0.0.1:22005 via RAGE MP
