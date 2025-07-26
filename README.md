@@ -60,3 +60,8 @@ This is a custom GTA V mod running on RageMP with a .NET server-side
 8. Build the project to obtain DLL.
 9. Start `service-files/ragemp-server.exe`
 10. Finally, connect to the 127.0.0.1:22005 via RAGE MP
+
+## Possible Improvements / Challenges
+Currently, all logic is written synchronously. To avoid blocking the main thread during long-running operations (such as database calls), the code should be refactored to use asynchronous approach. However, RAGE:MP has limitations regarding async code:
+- Calling NAPI (e.g., modifying player state, sending messages) from non-main threads — such as within async methods or background tasks, can lead to undefined behavior and warnings.
+- Asynchronous code running in background tasks can lead to race conditions if server state changes in the meantime.
