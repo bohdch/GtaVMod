@@ -1,18 +1,9 @@
 ﻿using GTANetworkAPI;
-using Microsoft.Extensions.DependencyInjection;
-using GtaVMod.Data;
 
 namespace GtaVMod.Commands
 {
     public class VehicleCommands : Script
     {
-        private readonly ModDbContext _modDbContext;
-
-        public VehicleCommands()
-        {
-            _modDbContext = ServicesContainer.ServiceProvider.GetService<ModDbContext>();
-        }
-
         [Command("veh")]
         public void SpawnVehicle(Player player, string model)
         {
